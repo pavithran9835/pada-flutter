@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "604928870549",
+    "project_id": "padadeliveryapp",
+    "storage_bucket": "padadeliveryapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604928870549:android:3517964cc01563a7af739c",
+        "android_client_info": {
+          "package_name": "com.pada.deliverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604928870549-ea0te47k4ivm7i9lfftamofr9h12re24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSr5RtlBZ4mSkZUmvnSfEQbCNLUuc8zns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604928870549-ea0te47k4ivm7i9lfftamofr9h12re24.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604928870549-r2fglbbialqvsfv50tfvf10vat7bedq5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pada.deliverapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
