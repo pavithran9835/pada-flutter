@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "604928870549",
     "project_id": "padadeliveryapp",
-    "storage_bucket": "padadeliveryapp.appspot.com"
+    "storage_bucket": "padadeliveryapp.firebasestorage.app"
   },
   "client": [
     {

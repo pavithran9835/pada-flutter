@@ -73,7 +73,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
               vehicleId: widget.vehicleDetail.sId)
           .then((value) {
         LoadingOverlay.of(context).hide();
-        debugPrint("order resp:::::::${value}");
+        debugPrint("order resp:::::::$value");
         errorText = value['message'];
         if (value['success']) {
           Navigator.pushReplacement(
@@ -90,7 +90,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
         }
       });
     } catch (e) {
-      debugPrint("error::::2 ${e}");
+      debugPrint("error::::2 $e");
       if (context.mounted) {
         LoadingOverlay.of(context).hide();
         if (e is ClientException) {
